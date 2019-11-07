@@ -1,13 +1,13 @@
 <template>
-   <div class="maindiv">
+   <div class="potato-voting">
     <b-container class="bv-example-row">
       <b-row>
         <b-col sm="6" class="bg1">
-          <u class="para">This is a page for potato voting.</u>
+          <u class="text">This is a page for potato voting.</u>
         </b-col>
         <b-col sm="6" class="bg2">
          
-          <p class="para">Made by with Love By [Name]</p>
+          <p class="text">Made by with Love By [Name]</p>
         </b-col>
       </b-row>
     </b-container>
@@ -15,7 +15,7 @@
 
  <b-container class="bg3">
     <b-row>
-        <b-col sm="6" offset="4" class="potato-banner">
+        <b-col sm="6" offset="4" class="img">
           <b-nav>
             <b-nav-item>
               <img src="https://raw.githubusercontent.com/cognitedata/fe-interview-challenge-vue/master/resources/mashedPotato.jpg"  width="150" height="90" >
@@ -31,7 +31,7 @@
 
 
       <b-row>
-        <b-col sm="6" offset="4" class="potato-banner">
+        <b-col sm="6" offset="4" class="img">
           <b-nav>
             <b-nav-item>
               <img src="https://raw.githubusercontent.com/cognitedata/fe-interview-challenge-vue/master/resources/bakedPotato.jpeg"  width="150" height="90" >
@@ -98,7 +98,7 @@ height: 50vh;
     background-image: url('https://wallpaperaccess.com/full/307203.jpg');
     height: 60vh;
 }
-.para{
+.text{
     position: absolute;
     top: 100px;
     left: 60px;
@@ -106,7 +106,7 @@ height: 50vh;
     
     font-size: 25px;
 }
-.potato-banner{
+.img{
     padding: 20px;
 }
 </style>
